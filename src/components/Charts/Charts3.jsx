@@ -2,7 +2,7 @@ import React from "react";
 import Chart from "react-apexcharts";
 
 
-const CustomerReview = () => {
+const Chart3 = () => {
   const data = {
     series: [
       {
@@ -17,7 +17,7 @@ const CustomerReview = () => {
       },
 
       fill: {
-        colors: ["#fff"],
+        colors: ["#bfbfbf"],
         type: "gradient",
       },
       dataLabels: {
@@ -25,7 +25,7 @@ const CustomerReview = () => {
       },
       stroke: {
         curve: "smooth",
-        colors: ["#ff929f"],
+        colors: [" #006600"],
       },
       tooltip: {
         x: {
@@ -55,9 +55,12 @@ const CustomerReview = () => {
       }
     },
   };
-  return <div className="CustomerReview">
+  return <div className="Chart3">
+     <h2 class="chart-title">Avg time spent   </h2>
+            <h3> 8.65 mins</h3>
+              <h5> ^ 9% last Month</h5>
         <Chart options={data.options} series={data.series} type="area" />
   </div>;
 };
 
-export default CustomerReview;
+export default Chart3;

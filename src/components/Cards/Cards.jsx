@@ -15,6 +15,9 @@ const Cards = () => {
               color={card.color}
               barValue={card.barValue}
               value={card.value}
+              value1={card.value1}
+              value2={card.value2}
+              value3={card.value3}
               png={card.png}
               series={card.series}
             />

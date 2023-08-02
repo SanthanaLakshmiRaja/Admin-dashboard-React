@@ -1,14 +1,17 @@
 import React from "react";
 import Cards from "../Cards/Cards";
-import Table from "../Table/Table";
+import Chartcards from "../Chartcards/Chartcards";
 import "./MainDash.css";
+
 const MainDash = () => {
   return (
     <div className="MainDash">
-      <h1>Dashboard</h1>
+      <h1>Analytics</h1>
+
       <Cards />
-      <Table />
+      <Chartcards />
     </div>
+    
   );
 };
 
